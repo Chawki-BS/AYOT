@@ -1,10 +1,12 @@
-
+import json
 
 import typer
 import whois
 import nmap3
 import requests
 from lxml import html
+from Wappalyzer import Wappalyzer, WebPage
+import json
 
 app = typer.Typer()
 
@@ -15,6 +17,17 @@ def get_page(url: str, proxy: str=None):
         proxies = {"http": f"http://{proxy}"}
     response = requests.get(url, proxies = proxies)
     return response
+
+
+@app.command()
+def analyze(url :str, proxy :str=None):
+    """Analyze page and display framework and versions."""
+    response = get_page(url, proxy)
+    webpage = WebPage.new_from_response(response)
+    wappalyzer = Wappalyzer.latest()
+    results = wappalyzer.analyze_with_versions_and_categories(webpage)
+    print(json.dumps(results, indent=2))
+
 
 @app.command()
 def is_form(url: str, proxy: str=None):
