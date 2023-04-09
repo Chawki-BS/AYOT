@@ -3,3 +3,4 @@ typer
 python3-nmap
 requests
 lxml
+python3-wappalyzer
