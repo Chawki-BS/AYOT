@@ -1,3 +1,5 @@
 python-whois
 typer
 python3-nmap
+requests
+lxml
