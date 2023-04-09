@@ -32,8 +32,6 @@ def is_form(url: str, proxy: str=None):
 #                if choice in ['Y','y']:
 
 
-
-
 @app.command()
 def domain_lookup(name: str):
     """Print the domain resgistrant's name and orgranization"""
@@ -49,9 +47,9 @@ def port_scan(target: str, top: int=10):
     results = nmap.scan_top_ports(target, default=top)
     ip, *_unused = results.keys()
     for port in results[ip]["ports"]:
-        if "open" in port["ports"]:
+        if "open" in port["state"]:
             print(f"++ {port['portid']} open : {port['service']['name']} >> reason : {port['reason']}")
-        elif "closed" in port["ports"]:
+        elif "closed" in port["state"]:
             print(f"-- {port['portid']} closed : {port['service']['name']} >> reason : {port['reason']}")
 
 
