@@ -27,7 +27,7 @@ Analyze a web page and display information about the web framework and versions:
 ```
 python main.py analyze <url> [--proxy=<proxy>]
 ```
-###IsForm
+### IsForm
 Find forms in a web page and print information about each form's input fields:
 ```
 python main.py is_form <url> [--proxy=<proxy>]
