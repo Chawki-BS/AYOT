@@ -17,6 +17,9 @@ pip install -r requirements.txt
 ```
 To run the script, simply execute the main.py file using the following command:
 ```
+python main.py --help
+```
+```
 python main.py <command> <arguments>
 ```
 Replace <command> with one of the available commands (analyze, is_form, domain_lookup, port_scan) and replace <arguments> with any necessary command-line arguments.
