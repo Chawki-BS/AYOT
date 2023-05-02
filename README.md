@@ -15,6 +15,7 @@ To install the dependencies, run the following command:
 ```
 pip install -r requirements.txt
 ```
+![1](https://user-images.githubusercontent.com/86046707/235796025-9acd75fa-9eeb-4540-84e5-1a9a71330266.PNG)
 To run the script, simply execute the main.py file using the following command:
 ```
 python main.py --help
@@ -37,12 +38,14 @@ python main.py is_form <url> [--proxy=<proxy>]
 ```
 Replace <url> with the URL of the web page you want to analyze, and optionally specify a proxy using the --proxy argument.
 ### DomainLookup
+![3](https://user-images.githubusercontent.com/86046707/235796418-ec8e5bb6-641a-4be4-bda5-273c3be2dee4.PNG)
 Perform a WHOIS lookup on a domain and print information about the domain registrant:
 ```
 python main.py domain_lookup <name>
 ```
 Replace <name> with the domain name you want to look up.
 ### PortScan
+![2](https://user-images.githubusercontent.com/86046707/235796235-d2e5ddd2-aca7-4041-bcd0-a611f5e970e9.PNG)
 Perform a port scan on a target IP address or hostname and print information about each open or closed port:
 ```
 python main.py port_scan <target> [--top=<number>]
