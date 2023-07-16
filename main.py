@@ -37,7 +37,7 @@ def print_banner():
     sub_bann("Automate Your Own Tools")
     sub_bann(
         "AYOT is a Python-based command-line tool for analyzing web pages and performing various operations such as port scanning, domain lookup, and form analysis")
-    sub_bann("Made by Chawki Ben Salem .. Hire me ;) ")
+    sub_bann("Made by Chawki Ben Salem")
     console.print("#" * console.width, style="red")
     print()
 
