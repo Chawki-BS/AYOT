@@ -1,4 +1,4 @@
-![AYOT LOGO](https://github.com/Chawki-BS/AYOT/assets/86046707/37e37b2a-351f-42f6-a88e-04449fd3ad3b)
+![AYOT LOGO](https://github.com/Chawki-BS/AYOT/assets/86046707/78af343b-294d-4fa1-9cc0-31fc3fef7757)
 # AYOT
 AYOT is a Python-based command-line tool for analyzing web pages and performing various operations such as port scanning, domain lookup, and form analysis. This tool uses the following libraries:
 - 'requests' for making HTTP requests
@@ -15,7 +15,7 @@ To install the dependencies, run the following command:
 ```
 pip install -r requirements.txt
 ```
-![1](https://github.com/Chawki-BS/AYOT/assets/86046707/6fbf244f-81bb-4185-ab1e-6980566e1d46)
+![1](https://github.com/Chawki-BS/AYOT/assets/86046707/18c23ee8-4e2a-420f-a1ba-7137aca9ab8e)
 To run the script, simply execute the main.py file using the following command:
 ```
 python main.py --help
@@ -38,14 +38,14 @@ python main.py is_form <url> [--proxy=<proxy>]
 ```
 Replace <url> with the URL of the web page you want to analyze, and optionally specify a proxy using the --proxy argument.
 ### DomainLookup
-![3](https://user-images.githubusercontent.com/86046707/235796418-ec8e5bb6-641a-4be4-bda5-273c3be2dee4.PNG)
+![3](https://github.com/Chawki-BS/AYOT/assets/86046707/eb8ec294-af67-41c2-a8da-e8afe305eb63)
 Perform a WHOIS lookup on a domain and print information about the domain registrant:
 ```
 python main.py domain_lookup <name>
 ```
 Replace <name> with the domain name you want to look up.
 ### PortScan
-![2](https://user-images.githubusercontent.com/86046707/235796235-d2e5ddd2-aca7-4041-bcd0-a611f5e970e9.PNG)
+![2](https://github.com/Chawki-BS/AYOT/assets/86046707/0d360b65-4793-4a2e-915e-071720007c6a)
 Perform a port scan on a target IP address or hostname and print information about each open or closed port:
 ```
 python main.py port_scan <target> [--top=<number>]
