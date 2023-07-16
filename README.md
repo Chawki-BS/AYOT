@@ -15,7 +15,7 @@ To install the dependencies, run the following command:
 ```
 pip install -r requirements.txt
 ```
-![1]https://github.com/Chawki-BS/AYOT/assets/86046707/6fbf244f-81bb-4185-ab1e-6980566e1d46)
+![1](https://github.com/Chawki-BS/AYOT/assets/86046707/6fbf244f-81bb-4185-ab1e-6980566e1d46)
 To run the script, simply execute the main.py file using the following command:
 ```
 python main.py --help
