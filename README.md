@@ -1,4 +1,4 @@
-![AYOT LOGO](https://user-images.githubusercontent.com/86046707/231365232-3012c653-fa37-4c5d-8e72-b23d5013ebe3.jpg)
+![AYOT LOGO](https://github.com/Chawki-BS/AYOT/assets/86046707/37e37b2a-351f-42f6-a88e-04449fd3ad3b)
 # AYOT
 AYOT is a Python-based command-line tool for analyzing web pages and performing various operations such as port scanning, domain lookup, and form analysis. This tool uses the following libraries:
 - 'requests' for making HTTP requests
@@ -15,7 +15,7 @@ To install the dependencies, run the following command:
 ```
 pip install -r requirements.txt
 ```
-![1](https://user-images.githubusercontent.com/86046707/235796025-9acd75fa-9eeb-4540-84e5-1a9a71330266.PNG)
+![1]https://github.com/Chawki-BS/AYOT/assets/86046707/6fbf244f-81bb-4185-ab1e-6980566e1d46)
 To run the script, simply execute the main.py file using the following command:
 ```
 python main.py --help
