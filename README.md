@@ -45,7 +45,6 @@ python main.py domain_lookup <name>
 ```
 Replace <name> with the domain name you want to look up.
 ### PortScan
-![2](https://github.com/Chawki-BS/AYOT/assets/86046707/0d360b65-4793-4a2e-915e-071720007c6a)
 Perform a port scan on a target IP address or hostname and print information about each open or closed port:
 ```
 python main.py port_scan <target> [--top=<number>]
